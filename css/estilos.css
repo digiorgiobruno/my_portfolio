@@ -26,8 +26,8 @@ h1 {
 .carrusel-fotos img {
   background: black;
   border: 4px solid black;
-  width: 300px;
-  height: 200px;
+  width: 268px;
+    height: 400px;
   object-fit: contain;
 }
 
