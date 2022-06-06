@@ -5,9 +5,12 @@
 <head>
 	<title>Mi portafolio</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
 	<link rel="stylesheet" href="../css/estilos.css">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
 	</noscript>
@@ -33,7 +36,7 @@
 			<div class="inner">
 				<h1 class="major">Tareas de mantenimiento y desarrollo a sistemas de recursos humanos</h1>
 
-				<div class="carrusel">
+				<!-- 		<div class="carrusel">
 					<ul class="carrusel-fotos">
 						<li id="foto1"><img src="../images/yam.png" alt=""></li>
 						<li id="foto2"><img src="../images/yam/chat Helpdesk.PNG" alt=""></li>
@@ -52,7 +55,24 @@
 						<li><a href="#foto6"><img src="../images/yam/g2.jpg" alt=""></a></li>
 
 					</ul>
+				</div> -->
+
+
+				<!-- Swiper -->
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../images/yam.png" alt=""></div>
+						<div class="swiper-slide"><img src="../images/yam/chat Helpdesk.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/yam/chat Yam.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/yam/g1.jpg" alt=""></div>
+						<div class="swiper-slide"><img src="../images/yam/g2.jpg" alt=""></div>
+						<div class="swiper-slide"><img src="../images/yam/Helpdesk.PNG" alt=""></div>
+
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
 				</div>
+
 
 
 
@@ -95,12 +115,12 @@
 					<li>Kotlin</li>
 					<li>Consola de desarrollador de Google Play</li>
 					<li>Consola de desarrollador de Firebase</li>
-					
+
 				</ul>
 				<h3>Enlace al repositorio:</h3>
 				<ul class="icons">
 					<li><a href="https://github.com/digiorgiobruno/androidYam" class="icon brands fa-github"
-							target="_blank"><span class="label">GitHub</span>  Aplicación móvil</a></li>
+							target="_blank"><span class="label">GitHub</span> Aplicación móvil</a></li>
 				</ul>
 			</div>
 		</section>
@@ -121,14 +141,16 @@
 			</ul>
 		</div>
 	</footer>
-
+	<!-- slider -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="../js/slider.js"></script>
 	<!-- Scripts -->
 	<script src="../assets/js/jquery.scrollex.min.js"></script>
 	<script src="../assets/js/jquery.scrolly.min.js"></script>
 	<script src="../assets/js/browser.min.js"></script>
 	<script src="../assets/js/breakpoints.min.js"></script>
 	<script src="../assets/js/util.js"></script>
-	<script src="../assets/js/main.js"></script> 
+	<script src="../assets/js/main.js"></script>
 
 </body>
 

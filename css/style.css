@@ -1,14 +1,23 @@
-#educacion{
-    background-color:#6f5297;
-}
-#skills-h{
-    background-color:#6f5297;
-}
-#skills-s{
-    background-color:#6f5297;
+#educacion {
+    background-color: #6f5297;
 }
 
-#footer{
+#skills-h {
+    background-color: #6f5297;
+}
+
+#skills-s {
+    background-color: #6f5297;
+}
+
+#footer {
 
     background-color: #642e8dd5;
+}
+
+.imagen {
+
+    width: 90%;
+    max-width: 560px;
+    margin: 0 auto;
 }

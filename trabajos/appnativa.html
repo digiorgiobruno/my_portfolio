@@ -5,9 +5,14 @@
 <head>
 	<title>Mi portafolio</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<!-- del template -->
 	<link rel="stylesheet" href="../assets/css/main.css" />
+	<!-- estilos general -->
 	<link rel="stylesheet" href="../css/estilos.css">
+
+	<!-- slider -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
 	</noscript>
@@ -32,27 +37,39 @@
 		<section id="main" class="wrapper">
 			<div class="inner">
 				<h1 class="major">Desarrollo de app nativas Android</h1>
-						<div class="carrusel">
-						<ul class="carrusel-fotos">
-							<li id="foto1"><img src="../images/appnativa/login.png" alt=""></li>
-							<li id="foto2"><img src="../images/appnativa/alta.png" alt=""></li>
-							<li id="foto3"><img src="../images/appnativa/principal.png" alt=""></li>
-							<li id="foto4"><img src="../images/appnativa/funciones.png" alt=""></li>
+				<!-- 				<div class="carrusel">
+					<ul class="carrusel-fotos">
+						<li id="foto1"><img src="../images/appnativa/login.png" alt=""></li>
+						<li id="foto2"><img src="../images/appnativa/alta.png" alt=""></li>
+						<li id="foto3"><img src="../images/appnativa/principal.png" alt=""></li>
+						<li id="foto4"><img src="../images/appnativa/funciones.png" alt=""></li>
 
-						</ul>
-						<ul class="carrusel-menu">
-							<li><a href="#foto1"><img src="../images/appnativa/login.png" alt=""></a></li>
-							<li><a href="#foto2"><img src="../images/appnativa/alta.png" alt=""></a></li>
-							<li><a href="#foto3"><img src="../images/appnativa/principal.png" alt=""></a></li>
-							<li><a href="#foto4"><img src="../images/appnativa/funciones.png" alt=""></a></li>
+					</ul>
+					<ul class="carrusel-menu">
+						<li><a href="#foto1"><img src="../images/appnativa/login.png" alt=""></a></li>
+						<li><a href="#foto2"><img src="../images/appnativa/alta.png" alt=""></a></li>
+						<li><a href="#foto3"><img src="../images/appnativa/principal.png" alt=""></a></li>
+						<li><a href="#foto4"><img src="../images/appnativa/funciones.png" alt=""></a></li>
 
-							
-						</ul>
+
+					</ul>
+				</div> -->
+				<!-- Swiper -->
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../images/appnativa/login.png" alt=""></div>
+						<div class="swiper-slide"><img src="../images/appnativa/alta.png" alt=""></div>
+						<div class="swiper-slide"><img src="../images/appnativa/principal.png" alt=""></div>
+						<div class="swiper-slide"><img src="../images/appnativa/funciones.png" alt=""></div>
 					</div>
-				
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
 
 
-				<p>Como trabajo final de la materia Ingeniería de Software desarrolle una app de creación de eventos sociales usando Kotlin, Android Studio y Firebase.</p>
+
+				<p>Como trabajo final de la materia Ingeniería de Software desarrolle una app de creación de eventos
+					sociales usando Kotlin, Android Studio y Firebase.</p>
 				<h3>Funciones desarrolladas:</h3>
 				<ul>
 					<li>ABM de eventos con base de datos en tiempo real de firebase.</li>
@@ -60,7 +77,8 @@
 				</ul>
 				<h3>Otras tareas:</h3>
 				<ul>
-					<li>Desglose de tareas, diseño e implementación del software, gestión de tareas usando SCRUM, estimación usando scrum poker.</li>
+					<li>Desglose de tareas, diseño e implementación del software, gestión de tareas usando SCRUM,
+						estimación usando scrum poker.</li>
 					<li>Elaboración de documentación como diagramas de clases, DER, Historias de usuario, etc.</li>
 
 				</ul>
@@ -97,14 +115,16 @@
 			</ul>
 		</div>
 	</footer>
-
+	<!-- slider -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="../js/slider.js"></script>
 	<!-- Scripts -->
 	<script src="../assets/js/jquery.scrollex.min.js"></script>
 	<script src="../assets/js/jquery.scrolly.min.js"></script>
 	<script src="../assets/js/browser.min.js"></script>
 	<script src="../assets/js/breakpoints.min.js"></script>
 	<script src="../assets/js/util.js"></script>
-	<script src="../assets/js/main.js"></script> 
+	<script src="../assets/js/main.js"></script>
 
 </body>
 

@@ -5,9 +5,14 @@
 <head>
 	<title>Mi portafolio</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<!-- del template -->
 	<link rel="stylesheet" href="../assets/css/main.css" />
+	<!-- estilos general -->
 	<link rel="stylesheet" href="../css/estilos.css">
+
+	<!-- slider -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
 	</noscript>
@@ -32,7 +37,7 @@
 		<section id="main" class="wrapper">
 			<div class="inner">
 				<h1 class="major">Desarrollo de aplicaciones móviles híbridas</h1>
-				<div class="carrusel">
+				<!-- 	<div class="carrusel">
 					<ul class="carrusel-fotos">
 						<li id="foto1"><img src="../images/weandlaw.PNG" alt=""></li>
 						<li id="foto2"><img src="../images/weandlaw/1.png" alt=""></li>
@@ -49,6 +54,18 @@
 
 
 					</ul>
+				</div> -->
+
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../images/weandlaw.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/weandlaw/1.png" alt=""></div>
+						<div class="swiper-slide"><img src="../images/weandlaw/2.png" alt=""></div>
+
+
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
 				</div>
 
 				<p>Desarrollo de aplicaciones móviles híbridas a partir de sistemas web.</p>
@@ -106,6 +123,9 @@
 		</div>
 	</footer>
 
+	<!-- slider -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="../js/slider.js"></script>
 	<!-- Scripts -->
 	<script src="../assets/js/jquery.scrollex.min.js"></script>
 	<script src="../assets/js/jquery.scrolly.min.js"></script>

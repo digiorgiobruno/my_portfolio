@@ -5,9 +5,14 @@
 <head>
 	<title>Mi portafolio</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<!-- del template -->
 	<link rel="stylesheet" href="../assets/css/main.css" />
+	<!-- estilos general -->
 	<link rel="stylesheet" href="../css/estilos.css">
+
+	<!-- slider -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
 	</noscript>
@@ -32,36 +37,50 @@
 		<section id="main" class="wrapper">
 			<div class="inner">
 				<h1 class="major">Creación de e-learning con PHP</h1>
-						<div class="carrusel">
-						<ul class="carrusel-fotos">
-							<li id="foto1"><img src="../images/notarweb.png" alt=""></li>
-							<li id="foto2"><img src="../images/notarweb/registro.PNG" alt=""></li>
-							<li id="foto3"><img src="../images/notarweb/pagos.PNG" alt=""></li>
-							<li id="foto4"><img src="../images/notarweb/mp.PNG" alt=""></li>
-							<li id="foto5"><img src="../images/notarweb/paypal.PNG" alt=""></li>
-							<li id="foto6"><img src="../images/notarweb/responsive.PNG" alt=""></li>
-							<li id="foto7"><img src="../images/notarweb/funcion1.PNG" alt=""></li>
-							
-							
+				<!-- 				<div class="carrusel">
+					<ul class="carrusel-fotos">
+						<li id="foto1"><img src="../images/notarweb.png" alt=""></li>
+						<li id="foto2"><img src="../images/notarweb/registro.PNG" alt=""></li>
+						<li id="foto3"><img src="../images/notarweb/pagos.PNG" alt=""></li>
+						<li id="foto4"><img src="../images/notarweb/mp.PNG" alt=""></li>
+						<li id="foto5"><img src="../images/notarweb/paypal.PNG" alt=""></li>
+						<li id="foto6"><img src="../images/notarweb/responsive.PNG" alt=""></li>
+						<li id="foto7"><img src="../images/notarweb/funcion1.PNG" alt=""></li>
 
-						</ul>
-						<ul class="carrusel-menu">
-							<li><a href="#foto1"><img src="../images/notarweb.png" alt=""></a></li>
-							<li><a href="#foto2"><img src="../images/notarweb/registro.PNG" alt=""></a></li>
-							<li><a href="#foto3"><img src="../images/notarweb/pagos.PNG" alt=""></a></li>
-							<li><a href="#foto4"><img src="../images/notarweb/mp.PNG" alt=""></a></li>
-							<li><a href="#foto5"><img src="../images/notarweb/paypal.PNG" alt=""></a></li>
-							<li><a href="#foto6"><img src="../images/notarweb/responsive.PNG" alt=""></a></li>
-							<li><a href="#foto7"><img src="../images/notarweb/funcion1.PNG" alt=""></a></li>
-							
-							
 
-						</ul>
+
+					</ul>
+					<ul class="carrusel-menu">
+						<li><a href="#foto1"><img src="../images/notarweb.png" alt=""></a></li>
+						<li><a href="#foto2"><img src="../images/notarweb/registro.PNG" alt=""></a></li>
+						<li><a href="#foto3"><img src="../images/notarweb/pagos.PNG" alt=""></a></li>
+						<li><a href="#foto4"><img src="../images/notarweb/mp.PNG" alt=""></a></li>
+						<li><a href="#foto5"><img src="../images/notarweb/paypal.PNG" alt=""></a></li>
+						<li><a href="#foto6"><img src="../images/notarweb/responsive.PNG" alt=""></a></li>
+						<li><a href="#foto7"><img src="../images/notarweb/funcion1.PNG" alt=""></a></li>
+
+
+
+					</ul>
+				</div> -->
+				<!-- Swiper -->
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../images/notarweb.png" alt=""></div>
+						<div class="swiper-slide"><img src="../images/notarweb/registro.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/notarweb/pagos.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/notarweb/mp.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/notarweb/paypal.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/notarweb/responsive.PNG" alt=""></div>
+						<div class="swiper-slide"><img src="../images/notarweb/funcion1.PNG" alt=""></div>
 					</div>
-				
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
 
 
-				<p>Trabajo freelance en el cual desarrollé una plataforma dinámica de venta de cursos online integrando Mercadopago y Vimeo.</p>
+				<p>Trabajo freelance en el cual desarrollé una plataforma dinámica de venta de cursos online integrando
+					Mercadopago y Vimeo.</p>
 				<h3>Funciones desarrolladas:</h3>
 				<ul>
 					<li>Diseño frontend, backend y bases de datos. Migrar al servidor en la nube usando FTP.</li>
@@ -112,14 +131,16 @@
 			</ul>
 		</div>
 	</footer>
-
+	<!-- slider -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="../js/slider.js"></script>
 	<!-- Scripts -->
 	<script src="../assets/js/jquery.scrollex.min.js"></script>
 	<script src="../assets/js/jquery.scrolly.min.js"></script>
 	<script src="../assets/js/browser.min.js"></script>
 	<script src="../assets/js/breakpoints.min.js"></script>
 	<script src="../assets/js/util.js"></script>
-	<script src="../assets/js/main.js"></script> 
+	<script src="../assets/js/main.js"></script>
 
 </body>
 
